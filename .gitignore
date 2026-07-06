@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.pyc
+
+streamlit.out.log
+streamlit.err.log
+
