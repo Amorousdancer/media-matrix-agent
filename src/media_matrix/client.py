@@ -36,7 +36,7 @@ class DeepSeekClient:
         self.timeout = float(os.getenv("DEEPSEEK_TIMEOUT", "120"))
 
         self.client = OpenAI(
-            api_key=self.api_key or "missing",
+            api_key=self.api_key or "",
             base_url=self.base_url,
             timeout=self.timeout,
         )
